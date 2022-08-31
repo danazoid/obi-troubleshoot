@@ -1,0 +1,2645 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40ef07b8494a443f95f90637aab250d, type: 3}
+  m_Name: Obi Bot skinmap
+  m_EditorClassIdentifier: 
+  bound: 1
+  barycentricWeight: 1
+  normalAlignmentWeight: 1
+  elevationWeight: 1
+  m_MasterChannels: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_SlaveChannels: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_SlaveTransform:
+    position: {x: -0.01, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    scale: {x: 1, y: 1, z: 1}
+  m_Master: {fileID: 11400000, guid: 31707c286409ffd44b5de447bd056159, type: 2}
+  m_Slave: {fileID: 9189906707245968209, guid: 5432aa6fad16f444eb58ad25e7c344af, type: 3}
+  skinnedVertices:
+  - slaveIndex: 0
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 1.0206878, y: -0.19048625, z: 0.16979842}
+      height: 0.008154934
+    normal:
+      barycentricCoords: {x: 0.68512493, y: -0.39247936, z: 0.7073544}
+      height: 0.05090987
+    tangent:
+      barycentricCoords: {x: 1.2399937, y: -1.6079899, z: 1.3679962}
+      height: -0.009154544
+  - slaveIndex: 1
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 0.17934044, y: 0.9749342, z: -0.15427467}
+      height: 0.0061614905
+    normal:
+      barycentricCoords: {x: 0.14933473, y: 2.0057685, z: -1.1551032}
+      height: 0.042301953
+    tangent:
+      barycentricCoords: {x: 1.3050712, y: 0.88763195, z: -1.192703}
+      height: 0.011707392
+  - slaveIndex: 2
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 0.18013272, y: 0.8148963, z: 0.0049710306}
+      height: 0.006251079
+    normal:
+      barycentricCoords: {x: -0.21391672, y: 0.6382906, z: 0.57562613}
+      height: 0.044669073
+    tangent:
+      barycentricCoords: {x: 1.2073836, y: -0.5574903, z: 0.35010666}
+      height: 0.021590509
+  - slaveIndex: 3
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 0.14387123, y: 0.8587972, z: -0.002668425}
+      height: 0.0037139603
+    normal:
+      barycentricCoords: {x: -0.75626224, y: 1.3581212, z: 0.39814103}
+      height: -0.017150791
+    tangent:
+      barycentricCoords: {x: -0.8732697, y: 1.9565217, z: -0.08325213}
+      height: -0.028801879
+  - slaveIndex: 4
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 1.1336405, y: 0.012938229, z: -0.14657883}
+      height: 0.0038314678
+    normal:
+      barycentricCoords: {x: 2.3046546, y: -0.6490602, z: -0.65559447}
+      height: -0.023009945
+    tangent:
+      barycentricCoords: {x: 0.25336713, y: 0.04815899, z: 0.6984739}
+      height: -0.027294008
+  - slaveIndex: 5
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 0.17953108, y: -0.00895725, z: 0.82942617}
+      height: 0.0062087467
+    normal:
+      barycentricCoords: {x: -0.11144519, y: 0.7938913, z: 0.3175539}
+      height: 0.04758488
+    tangent:
+      barycentricCoords: {x: 1.213983, y: 0.1289022, z: -0.34288523}
+      height: 0.022494424
+  - slaveIndex: 6
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 1.131622, y: -0.122900896, z: -0.008721025}
+      height: 0.003770501
+    normal:
+      barycentricCoords: {x: 1.1182394, y: 0.7465105, z: -0.86474985}
+      height: -0.02436267
+    tangent:
+      barycentricCoords: {x: 0.25037953, y: 0.77331394, z: -0.023693465}
+      height: -0.02752792
+  - slaveIndex: 7
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 0.14474438, y: 0.0033110336, z: 0.85194457}
+      height: 0.0037310468
+    normal:
+      barycentricCoords: {x: -0.5732057, y: 1.2136773, z: 0.35952842}
+      height: -0.012495388
+    tangent:
+      barycentricCoords: {x: -0.8426478, y: 0.13111356, z: 1.7115343}
+      height: -0.028049087
+  - slaveIndex: 8
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 1.1573601, y: -0.15091723, z: -0.006442858}
+      height: 0.006374053
+    normal:
+      barycentricCoords: {x: 1.345528, y: 0.38108313, z: -0.72661114}
+      height: 0.039828785
+    tangent:
+      barycentricCoords: {x: 2.4085202, y: -1.7172539, z: 0.30873373}
+      height: -0.009852909
+  - slaveIndex: 9
+    masterTriangleIndex: 6
+    position:
+      barycentricCoords: {x: 0.0109168645, y: 0.80972546, z: 0.1793577}
+      height: 0.006753403
+    normal:
+      barycentricCoords: {x: -0.10856126, y: 1.5019513, z: -0.39339012}
+      height: 0.046538815
+    tangent:
+      barycentricCoords: {x: -0.1553456, y: -0.0796171, z: 1.2349627}
+      height: 0.039457936
+  - slaveIndex: 10
+    masterTriangleIndex: 15
+    position:
+      barycentricCoords: {x: 0.8453153, y: -0.005346299, z: 0.16003107}
+      height: 0.0082943225
+    normal:
+      barycentricCoords: {x: 0.8973422, y: -0.008794856, z: 0.111452654}
+      height: 0.058071468
+    tangent:
+      barycentricCoords: {x: -0.43297702, y: 0.026465258, z: 1.4065118}
+      height: 0.013030251
+  - slaveIndex: 11
+    masterTriangleIndex: 9
+    position:
+      barycentricCoords: {x: 1.0090073, y: 0.15272391, z: -0.1617313}
+      height: 0.00699579
+    normal:
+      barycentricCoords: {x: 1.7067546, y: -0.79446447, z: 0.087709844}
+      height: 0.040407762
+    tangent:
+      barycentricCoords: {x: 1.2607865, y: 1.2242045, z: -1.4849911}
+      height: 0.0063698767
+  - slaveIndex: 12
+    masterTriangleIndex: 21
+    position:
+      barycentricCoords: {x: 0.0995706, y: 0.01774238, z: 0.88268703}
+      height: 0.0100171855
+    normal:
+      barycentricCoords: {x: 0.2116065, y: -0.58624315, z: 1.3746367}
+      height: 0.046933144
+    tangent:
+      barycentricCoords: {x: 1.341698, y: 0.16966, z: -0.511358}
+      height: 0.021145113
+  - slaveIndex: 13
+    masterTriangleIndex: 27
+    position:
+      barycentricCoords: {x: -0.03386967, y: 0.49274948, z: 0.5411202}
+      height: 0.009351763
+    normal:
+      barycentricCoords: {x: -0.068486005, y: 0.67615557, z: 0.39233035}
+      height: 0.059337348
+    tangent:
+      barycentricCoords: {x: -0.3438623, y: 6.132815, z: -4.788953}
+      height: 0.0126483105
+  - slaveIndex: 14
+    masterTriangleIndex: 495
+    position:
+      barycentricCoords: {x: 0.035261713, y: 0.03355974, z: 0.93117857}
+      height: 0.009891861
+    normal:
+      barycentricCoords: {x: 0.1540005, y: -0.55414414, z: 1.4001436}
+      height: 0.04784265
+    tangent:
+      barycentricCoords: {x: 1.3419706, y: 0.28915897, z: -0.6311295}
+      height: 0.024035472
+  - slaveIndex: 15
+    masterTriangleIndex: 33
+    position:
+      barycentricCoords: {x: 0.6158849, y: 0.47053796, z: -0.086422905}
+      height: 0.009008611
+    normal:
+      barycentricCoords: {x: 0.4639557, y: 0.68145406, z: -0.14540976}
+      height: 0.05919061
+    tangent:
+      barycentricCoords: {x: -3.3093119, y: 5.500614, z: -1.1913024}
+      height: 0.003912046
+  - slaveIndex: 16
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 0.40770632, y: 0.627654, z: -0.035360355}
+      height: 0.009345893
+    normal:
+      barycentricCoords: {x: 0.5052898, y: 0.57393825, z: -0.079228}
+      height: 0.0593481
+    tangent:
+      barycentricCoords: {x: 6.2225637, y: -4.75234, z: -0.47022352}
+      height: 0.008909183
+  - slaveIndex: 17
+    masterTriangleIndex: 42
+    position:
+      barycentricCoords: {x: 0.31648555, y: 0.7712511, z: -0.087736666}
+      height: 0.009005551
+    normal:
+      barycentricCoords: {x: 0.020438813, y: 1.129905, z: -0.15034379}
+      height: 0.059185095
+    tangent:
+      barycentricCoords: {x: -6.4211326, y: 8.61269, z: -1.1915572}
+      height: 0.0041690497
+  - slaveIndex: 18
+    masterTriangleIndex: 33
+    position:
+      barycentricCoords: {x: 0.44253075, y: 0.7516161, z: -0.19414687}
+      height: 0.00858356
+    normal:
+      barycentricCoords: {x: 0.2329918, y: 0.97206753, z: -0.20505938}
+      height: 0.05904704
+    tangent:
+      barycentricCoords: {x: -3.975146, y: 6.2235465, z: -1.2484004}
+      height: 0.0041955323
+  - slaveIndex: 19
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.08851381, y: 0.8065203, z: 0.28199354}
+      height: 0.009004137
+    normal:
+      barycentricCoords: {x: -0.14864102, y: 0.31011117, z: 0.8385298}
+      height: 0.05918823
+    tangent:
+      barycentricCoords: {x: -1.1860945, y: -10.423058, z: 12.609151}
+      height: 0.0044733714
+  - slaveIndex: 20
+    masterTriangleIndex: 42
+    position:
+      barycentricCoords: {x: 0.19769233, y: 0.9437325, z: -0.14142482}
+      height: 0.008789661
+    normal:
+      barycentricCoords: {x: -0.26200932, y: 1.4347577, z: -0.17274843}
+      height: 0.05909039
+    tangent:
+      barycentricCoords: {x: -7.5672274, y: 9.759333, z: -1.1921064}
+      height: 0.0045758053
+  - slaveIndex: 21
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.08831222, y: -0.19168393, z: 1.2799962}
+      height: 0.009005281
+    normal:
+      barycentricCoords: {x: -0.06703509, y: 0.54780996, z: 0.5192251}
+      height: 0.059143413
+    tangent:
+      barycentricCoords: {x: -1.1532508, y: -11.143137, z: 13.296389}
+      height: 0.010602503
+  - slaveIndex: 22
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.6850908, y: -0.92303264, z: 1.2379417}
+      height: 0.004039518
+    normal:
+      barycentricCoords: {x: 1.3003348, y: -1.955188, z: 1.6548531}
+      height: 0.034431648
+    tangent:
+      barycentricCoords: {x: 0.40236092, y: -2.0991106, z: 2.6967497}
+      height: -0.022585632
+  - slaveIndex: 23
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.11525103, y: 0.7418995, z: 0.37335154}
+      height: 0.008895489
+    normal:
+      barycentricCoords: {x: -0.15127683, y: -0.11826305, z: 1.2695398}
+      height: 0.059133936
+    tangent:
+      barycentricCoords: {x: -1.1573246, y: -12.634949, z: 14.792273}
+      height: 0.004937639
+  - slaveIndex: 24
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.11505957, y: -0.25624877, z: 1.3713083}
+      height: 0.008897142
+    normal:
+      barycentricCoords: {x: -0.1926266, y: 0.73348486, z: 0.45914173}
+      height: 0.05906336
+    tangent:
+      barycentricCoords: {x: -1.1835998, y: -12.766478, z: 14.950077}
+      height: 0.004550688
+  - slaveIndex: 25
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.6714232, y: -0.9390585, z: 1.2676353}
+      height: 0.0038384288
+    normal:
+      barycentricCoords: {x: 1.2641215, y: -1.8742378, z: 1.6101164}
+      height: 0.037326887
+    tangent:
+      barycentricCoords: {x: 0.44302878, y: -2.1905723, z: 2.7475438}
+      height: -0.021594169
+  - slaveIndex: 26
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.14204016, y: 0.67698944, z: 0.46505073}
+      height: 0.008787886
+    normal:
+      barycentricCoords: {x: -0.15673439, y: 1.4293196, z: -0.27258524}
+      height: 0.059127033
+    tangent:
+      barycentricCoords: {x: -1.172612, y: -12.564869, z: 14.73748}
+      height: 0.0076179635
+  - slaveIndex: 27
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.14184698, y: -0.32113582, z: 1.4629829}
+      height: 0.008789217
+    normal:
+      barycentricCoords: {x: -0.21124616, y: -1.102931, z: 2.314177}
+      height: 0.059041902
+    tangent:
+      barycentricCoords: {x: -1.2166598, y: -13.087324, z: 15.303985}
+      height: 0.0024769239
+  - slaveIndex: 28
+    masterTriangleIndex: 495
+    position:
+      barycentricCoords: {x: -1.012461, y: 1.613129, z: 0.39933193}
+      height: -0.0023083403
+    normal:
+      barycentricCoords: {x: -1.0992684, y: 2.2035854, z: -0.1043169}
+      height: 0.032485485
+    tangent:
+      barycentricCoords: {x: 0.35475355, y: 1.790686, z: -1.1454395}
+      height: 0.00095753616
+  - slaveIndex: 29
+    masterTriangleIndex: 42
+    position:
+      barycentricCoords: {x: 0.07802625, y: 1.1172605, z: -0.19528669}
+      height: 0.008576244
+    normal:
+      barycentricCoords: {x: 0.5022528, y: 0.68985146, z: -0.19210431}
+      height: 0.059068453
+    tangent:
+      barycentricCoords: {x: -7.6139784, y: 9.849985, z: -1.2360064}
+      height: 0.0071784817
+  - slaveIndex: 30
+    masterTriangleIndex: 33
+    position:
+      barycentricCoords: {x: 0.2669849, y: 1.0355794, z: -0.3025643}
+      height: 0.0081640445
+    normal:
+      barycentricCoords: {x: 0.56096053, y: 0.7037155, z: -0.26467603}
+      height: 0.059021637
+    tangent:
+      barycentricCoords: {x: -4.117587, y: 6.4660425, z: -1.3484554}
+      height: 0.006730364
+  - slaveIndex: 31
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.16884449, y: 0.61234474, z: 0.5564998}
+      height: 0.008681696
+    normal:
+      barycentricCoords: {x: -0.19158038, y: -0.04034304, z: 1.2319233}
+      height: 0.05907179
+    tangent:
+      barycentricCoords: {x: -1.2135236, y: -12.781467, z: 14.99499}
+      height: 0.0048681847
+  - slaveIndex: 32
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.3493814, y: 0.2548197, z: -0.60420096}
+      height: 0.009832996
+    normal:
+      barycentricCoords: {x: 1.6428065, y: -0.06521661, z: -0.57759}
+      height: 0.060546625
+    tangent:
+      barycentricCoords: {x: 7.231742, y: -5.2511473, z: -0.9805951}
+      height: 0.01201835
+  - slaveIndex: 33
+    masterTriangleIndex: 495
+    position:
+      barycentricCoords: {x: -0.9794296, y: 1.6136024, z: 0.36582726}
+      height: -0.001912618
+    normal:
+      barycentricCoords: {x: -1.1473361, y: 2.1665292, z: -0.019193102}
+      height: 0.0339164
+    tangent:
+      barycentricCoords: {x: 0.3703398, y: 1.8426411, z: -1.2129809}
+      height: 0.003387124
+  - slaveIndex: 34
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.19571492, y: 0.5466902, z: 0.6490246}
+      height: 0.008574855
+    normal:
+      barycentricCoords: {x: -0.25189054, y: -0.105104044, z: 1.3569946}
+      height: 0.058994055
+    tangent:
+      barycentricCoords: {x: -1.2535417, y: -12.949666, z: 15.203208}
+      height: 0.0023626552
+  - slaveIndex: 35
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.4742445, y: 0.12993978, z: -0.60418427}
+      height: 0.009833605
+    normal:
+      barycentricCoords: {x: 2.224564, y: -0.5768208, z: -0.6477434}
+      height: 0.06077479
+    tangent:
+      barycentricCoords: {x: 7.2924423, y: -5.3132777, z: -0.97916436}
+      height: 0.008443063
+  - slaveIndex: 36
+    masterTriangleIndex: 495
+    position:
+      barycentricCoords: {x: -0.9464375, y: 1.6141142, z: 0.33232325}
+      height: -0.001517412
+    normal:
+      barycentricCoords: {x: -1.0421963, y: 2.2079124, z: -0.16571605}
+      height: 0.03317303
+    tangent:
+      barycentricCoords: {x: 0.41843757, y: 1.7962201, z: -1.2146577}
+      height: 0.0018899023
+  - slaveIndex: 37
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 1.1651816, y: 0.08410157, z: -0.24928318}
+      height: 0.008364932
+    normal:
+      barycentricCoords: {x: 0.70914835, y: 0.54445004, z: -0.25359836}
+      height: 0.058994807
+    tangent:
+      barycentricCoords: {x: -13.344637, y: 15.647705, z: -1.3030672}
+      height: 0.004408033
+  - slaveIndex: 38
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.222635, y: 0.48075593, z: 0.74187905}
+      height: 0.008468945
+    normal:
+      barycentricCoords: {x: -0.23279886, y: 0.0149206845, z: 1.2178781}
+      height: 0.05902035
+    tangent:
+      barycentricCoords: {x: -1.2700212, y: -12.937504, z: 15.207525}
+      height: 0.004724567
+  - slaveIndex: 39
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.5992727, y: 0.004914132, z: -0.6041868}
+      height: 0.009833086
+    normal:
+      barycentricCoords: {x: 1.91853, y: -0.33874327, z: -0.57978666}
+      height: 0.06056137
+    tangent:
+      barycentricCoords: {x: 7.4789896, y: -5.498171, z: -0.98081845}
+      height: 0.011807012
+  - slaveIndex: 40
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6354339, y: 0.048266932, z: 1.587167}
+      height: 0.009864265
+    normal:
+      barycentricCoords: {x: -1.2186135, y: 1.9741273, z: 0.24448618}
+      height: 0.049387533
+    tangent:
+      barycentricCoords: {x: -0.82749945, y: 5.307314, z: -3.4798148}
+      height: -0.0011589065
+  - slaveIndex: 41
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.24959916, y: 0.41442272, z: 0.8351764}
+      height: 0.008363517
+    normal:
+      barycentricCoords: {x: -0.24533585, y: 1.3496182, z: -0.1042822}
+      height: 0.059004482
+    tangent:
+      barycentricCoords: {x: -1.287394, y: -12.895479, z: 15.182873}
+      height: 0.006781698
+  - slaveIndex: 42
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6041915, y: 0.12011559, z: 1.4840759}
+      height: 0.009833178
+    normal:
+      barycentricCoords: {x: -0.64586437, y: 0.806048, z: 0.83981633}
+      height: 0.06077609
+    tangent:
+      barycentricCoords: {x: -0.97946775, y: 5.565774, z: -3.5863063}
+      height: 0.008636796
+  - slaveIndex: 43
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6354362, y: 0.17329788, z: 1.4621383}
+      height: 0.009864344
+    normal:
+      barycentricCoords: {x: -1.2486184, y: 2.3773842, z: -0.12876575}
+      height: 0.047531683
+    tangent:
+      barycentricCoords: {x: -0.7851542, y: 5.3417573, z: -3.556603}
+      height: -0.0030224016
+  - slaveIndex: 44
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 0.9767512, y: 0.32670444, z: -0.30345565}
+      height: 0.008154823
+    normal:
+      barycentricCoords: {x: 0.5637827, y: 0.7680533, z: -0.33183593}
+      height: 0.05894408
+    tangent:
+      barycentricCoords: {x: -13.654785, y: 16.02502, z: -1.3702358}
+      height: 0.0020036097
+  - slaveIndex: 45
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.27660227, y: 0.34767997, z: 0.9289223}
+      height: 0.008258551
+    normal:
+      barycentricCoords: {x: -0.27421597, y: 0.066076785, z: 1.2081392}
+      height: 0.0589834
+    tangent:
+      barycentricCoords: {x: -1.3267765, y: -13.091257, z: 15.418034}
+      height: 0.0045712427
+  - slaveIndex: 46
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60419387, y: 0.24514909, z: 1.3590448}
+      height: 0.00983326
+    normal:
+      barycentricCoords: {x: -0.5819993, y: 0.60880494, z: 0.97319436}
+      height: 0.060575567
+    tangent:
+      barycentricCoords: {x: -0.9806832, y: 5.7454443, z: -3.7647614}
+      height: 0.011633876
+  - slaveIndex: 47
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63541996, y: 0.29815775, z: 1.3372622}
+      height: 0.009865115
+    normal:
+      barycentricCoords: {x: -1.2208993, y: 2.226232, z: -0.005332629}
+      height: 0.04926342
+    tangent:
+      barycentricCoords: {x: -0.8259457, y: 5.557439, z: -3.7314932}
+      height: -0.0011392364
+  - slaveIndex: 48
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.30362076, y: 0.28133592, z: 1.0222849}
+      height: 0.008154319
+    normal:
+      barycentricCoords: {x: -0.32878882, y: -0.06491692, z: 1.3937057}
+      height: 0.058952235
+    tangent:
+      barycentricCoords: {x: -1.3671623, y: -13.259448, z: 15.62661}
+      height: 0.0022834388
+  - slaveIndex: 49
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60419434, y: 0.37015688, z: 1.2340374}
+      height: 0.009832864
+    normal:
+      barycentricCoords: {x: -0.6436021, y: 1.0348308, z: 0.60877126}
+      height: 0.060775273
+    tangent:
+      barycentricCoords: {x: -0.9795004, y: 5.819337, z: -3.8398368}
+      height: 0.0088290945
+  - slaveIndex: 50
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6354222, y: 0.42318875, z: 1.2122335}
+      height: 0.009865196
+    normal:
+      barycentricCoords: {x: -1.2485142, y: 2.604127, z: -0.35561293}
+      height: 0.047554508
+    tangent:
+      barycentricCoords: {x: -0.7874867, y: 5.599682, z: -3.8121948}
+      height: -0.0028502778
+  - slaveIndex: 51
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60417926, y: 0.49500865, z: 1.1091707}
+      height: 0.009833638
+    normal:
+      barycentricCoords: {x: -0.5843208, y: 0.87640446, z: 0.70791626}
+      height: 0.060589213
+    tangent:
+      barycentricCoords: {x: -0.9807341, y: 5.993117, z: -4.012383}
+      height: 0.011473658
+  - slaveIndex: 52
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.635423, y: 0.548202, z: 1.087221}
+      height: 0.0098648295
+    normal:
+      barycentricCoords: {x: -1.2237705, y: 2.478373, z: -0.2546025}
+      height: 0.0491057
+    tangent:
+      barycentricCoords: {x: -0.8248865, y: 5.8066077, z: -3.9817212}
+      height: -0.0011568374
+  - slaveIndex: 53
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.33071253, y: 0.21392599, z: 1.1167865}
+      height: 0.008050094
+    normal:
+      barycentricCoords: {x: -0.3160618, y: 0.11301225, z: 1.2030497}
+      height: 0.05896093
+    tangent:
+      barycentricCoords: {x: -1.3836496, y: -13.249602, z: 15.633252}
+      height: 0.0043913503
+  - slaveIndex: 54
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 0.7875307, y: 0.5702339, z: -0.35776463}
+      height: 0.007946259
+    normal:
+      barycentricCoords: {x: 0.7274205, y: 0.6094168, z: -0.33683726}
+      height: 0.05895238
+    tangent:
+      barycentricCoords: {x: -13.769612, y: 16.186245, z: -1.4166317}
+      height: 0.0040795575
+  - slaveIndex: 55
+    masterTriangleIndex: 285
+    position:
+      barycentricCoords: {x: 0.37006083, y: -0.120499074, z: 0.7504383}
+      height: 0.00932091
+    normal:
+      barycentricCoords: {x: 0.5861823, y: -0.21151513, z: 0.62533283}
+      height: 0.059283324
+    tangent:
+      barycentricCoords: {x: -9.088794, y: -1.46133, z: 11.550124}
+      height: 0.009487025
+  - slaveIndex: 56
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6041817, y: 0.62004685, z: 0.9841348}
+      height: 0.009833723
+    normal:
+      barycentricCoords: {x: -0.64147407, y: 1.2667848, z: 0.37468928}
+      height: 0.060774744
+    tangent:
+      barycentricCoords: {x: -0.97977084, y: 6.071821, z: -4.0920506}
+      height: 0.008992622
+  - slaveIndex: 57
+    masterTriangleIndex: 495
+    position:
+      barycentricCoords: {x: -0.74919397, y: 1.6178768, z: 0.13131717}
+      height: 0.0008450283
+    normal:
+      barycentricCoords: {x: -0.8711601, y: 2.2207823, z: -0.34962222}
+      height: 0.03528932
+    tangent:
+      barycentricCoords: {x: 0.60879946, y: 1.8129311, z: -1.4217304}
+      height: 0.004758655
+  - slaveIndex: 58
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.3578503, y: 0.14622864, z: 1.2116216}
+      height: 0.007946135
+    normal:
+      barycentricCoords: {x: -0.36801028, y: -0.038117945, z: 1.4061282}
+      height: 0.058949318
+    tangent:
+      barycentricCoords: {x: -1.4240311, y: -13.4191885, z: 15.84322}
+      height: 0.0022187985
+  - slaveIndex: 59
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6041822, y: 0.7450564, z: 0.85912585}
+      height: 0.009833346
+    normal:
+      barycentricCoords: {x: -0.58686686, y: 1.1470511, z: 0.43981582}
+      height: 0.060602825
+    tangent:
+      barycentricCoords: {x: -0.98093224, y: 6.2404194, z: -4.259487}
+      height: 0.011287751
+  - slaveIndex: 60
+    masterTriangleIndex: 495
+    position:
+      barycentricCoords: {x: -0.7164272, y: 1.6186292, z: 0.097798005}
+      height: 0.0012377779
+    normal:
+      barycentricCoords: {x: -0.8954393, y: 2.1957312, z: -0.3002918}
+      height: 0.036397006
+    tangent:
+      barycentricCoords: {x: 0.62831146, y: 1.850337, z: -1.4786484}
+      height: 0.0065793484
+  - slaveIndex: 61
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 0.59615016, y: 0.8161244, z: -0.41227457}
+      height: 0.0077376994
+    normal:
+      barycentricCoords: {x: 1.8275158, y: -0.45594865, z: -0.3715672}
+      height: 0.058965348
+    tangent:
+      barycentricCoords: {x: -13.879158, y: 16.344704, z: -1.4655449}
+      height: 0.0055074976
+  - slaveIndex: 62
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.38502872, y: 0.07820162, z: 1.3068271}
+      height: 0.00784202
+    normal:
+      barycentricCoords: {x: -0.3585051, y: 0.157551, z: 1.2009542}
+      height: 0.058952507
+    tangent:
+      barycentricCoords: {x: -1.4408832, y: -13.409637, z: 15.850521}
+      height: 0.004179342
+  - slaveIndex: 63
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.035352383, y: 0.37227067, z: 0.6630817}
+      height: 0.009346306
+    normal:
+      barycentricCoords: {x: -0.05915745, y: 0.63807225, z: 0.42108518}
+      height: 0.05934897
+    tangent:
+      barycentricCoords: {x: -0.4697581, y: 5.7350645, z: -4.265306}
+      height: 0.007342445
+  - slaveIndex: 64
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6041868, y: 0.8700801, z: 0.73410666}
+      height: 0.009833441
+    normal:
+      barycentricCoords: {x: -0.6389966, y: 1.4966292, z: 0.14236735}
+      height: 0.060772106
+    tangent:
+      barycentricCoords: {x: -0.97992134, y: 6.324932, z: -4.3450108}
+      height: 0.009175934
+  - slaveIndex: 65
+    masterTriangleIndex: 495
+    position:
+      barycentricCoords: {x: -0.6837359, y: 1.6193947, z: 0.06434123}
+      height: 0.0016300231
+    normal:
+      barycentricCoords: {x: -0.81391317, y: 2.2250721, z: -0.41115895}
+      height: 0.03601605
+    tangent:
+      barycentricCoords: {x: 0.67200214, y: 1.8184714, z: -1.4904735}
+      height: 0.005725494
+  - slaveIndex: 66
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.5662736, y: 0.8036221, z: 0.76265156}
+      height: 0.009795676
+    normal:
+      barycentricCoords: {x: -0.6010072, y: 1.4050807, z: 0.19592644}
+      height: 0.060647774
+    tangent:
+      barycentricCoords: {x: -0.9706168, y: 6.218211, z: -4.247594}
+      height: 0.009045575
+  - slaveIndex: 67
+    masterTriangleIndex: 372
+    position:
+      barycentricCoords: {x: 0.24942413, y: -0.1205125, z: 0.8710884}
+      height: 0.009320785
+    normal:
+      barycentricCoords: {x: 0.01010673, y: -0.2078801, z: 1.1977733}
+      height: 0.059292734
+    tangent:
+      barycentricCoords: {x: -10.548679, y: -1.4587297, z: 13.00741}
+      height: 0.007997296
+  - slaveIndex: 68
+    masterTriangleIndex: 492
+    position:
+      barycentricCoords: {x: 0.2907871, y: 0.7461833, z: -0.036970392}
+      height: 0.009322848
+    normal:
+      barycentricCoords: {x: 0.15996042, y: 0.9056657, z: -0.065626144}
+      height: 0.05923713
+    tangent:
+      barycentricCoords: {x: 4.487378, y: -2.988349, z: -0.4990293}
+      height: 0.014247013
+  - slaveIndex: 69
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60418916, y: 0.995113, z: 0.6090762}
+      height: 0.009833523
+    normal:
+      barycentricCoords: {x: -0.58940536, y: 1.4124887, z: 0.17691675}
+      height: 0.060615875
+    tangent:
+      barycentricCoords: {x: -0.9804815, y: 6.479326, z: -4.4988446}
+      height: 0.011133044
+  - slaveIndex: 70
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.25779372, y: 1.4106544, z: -0.66844815}
+      height: 0.010749573
+    normal:
+      barycentricCoords: {x: 1.4333508, y: 0.4673794, z: -0.90073013}
+      height: 0.051466826
+    tangent:
+      barycentricCoords: {x: 2.6194828, y: -2.1381826, z: 0.5187001}
+      height: 0.007250834
+  - slaveIndex: 71
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.49040878, y: 0.9204836, z: 0.56992525}
+      height: 0.0097234575
+    normal:
+      barycentricCoords: {x: -0.5164241, y: 1.2764081, z: 0.24001607}
+      height: 0.060393978
+    tangent:
+      barycentricCoords: {x: -0.895923, y: 6.357954, z: -4.4620314}
+      height: 0.010521335
+  - slaveIndex: 72
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.56625503, y: 0.9284871, z: 0.6377679}
+      height: 0.00979643
+    normal:
+      barycentricCoords: {x: -0.59317386, y: 1.3468649, z: 0.2463088}
+      height: 0.060626574
+    tangent:
+      barycentricCoords: {x: -0.97168255, y: 6.3671093, z: -4.3954268}
+      height: 0.010653454
+  - slaveIndex: 73
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6041706, y: 1.1199808, z: 0.4841898}
+      height: 0.009834277
+    normal:
+      barycentricCoords: {x: -0.63646334, y: 1.7285638, z: -0.09210047}
+      height: 0.060769603
+    tangent:
+      barycentricCoords: {x: -0.98001397, y: 6.577549, z: -4.597535}
+      height: 0.009340775
+  - slaveIndex: 74
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.29774904, y: 1.3412323, z: -0.6389813}
+      height: 0.010894404
+    normal:
+      barycentricCoords: {x: 1.6397722, y: 0.19002256, z: -0.82979465}
+      height: 0.05053065
+    tangent:
+      barycentricCoords: {x: 2.5781572, y: -2.136526, z: 0.5583688}
+      height: 0.006059691
+  - slaveIndex: 75
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.56625557, y: 1.0534977, z: 0.51275784}
+      height: 0.009796061
+    normal:
+      barycentricCoords: {x: -0.5567245, y: 1.3809388, z: 0.1757856}
+      height: 0.06051625
+    tangent:
+      barycentricCoords: {x: -0.971956, y: 6.5145483, z: -4.542592}
+      height: 0.011634364
+  - slaveIndex: 76
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.49041405, y: 1.1705205, z: 0.31989345}
+      height: 0.009723177
+    normal:
+      barycentricCoords: {x: -0.51476634, y: 1.7338034, z: -0.21903704}
+      height: 0.060392905
+    tangent:
+      barycentricCoords: {x: -0.8949975, y: 6.5828896, z: -4.6878924}
+      height: 0.008763553
+  - slaveIndex: 77
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6041747, y: 1.244976, z: 0.3591987}
+      height: 0.009833922
+    normal:
+      barycentricCoords: {x: -0.5922105, y: 1.6809343, z: -0.08872384}
+      height: 0.06062997
+    tangent:
+      barycentricCoords: {x: -0.98076427, y: 6.726583, z: -4.745819}
+      height: 0.0109649915
+  - slaveIndex: 78
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.33778653, y: 1.2717295, z: -0.609516}
+      height: 0.011038808
+    normal:
+      barycentricCoords: {x: 1.5468376, y: 0.293104, z: -0.8399415}
+      height: 0.05148972
+    tangent:
+      barycentricCoords: {x: 2.6960955, y: -2.2745562, z: 0.57846063}
+      height: 0.0075342297
+  - slaveIndex: 79
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.5662601, y: 1.1785231, z: 0.3877371}
+      height: 0.009796152
+    normal:
+      barycentricCoords: {x: -0.5903479, y: 1.5979712, z: -0.0076232636}
+      height: 0.060622517
+    tangent:
+      barycentricCoords: {x: -0.9718555, y: 6.6169753, z: -4.6451197}
+      height: 0.010659153
+  - slaveIndex: 80
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.59470725, y: 0.041624494, z: 1.5530828}
+      height: 0.0028725788
+    normal:
+      barycentricCoords: {x: -0.5694034, y: -0.21272674, z: 1.7821301}
+      height: 0.052768473
+    tangent:
+      barycentricCoords: {x: -1.1048021, y: 1.6162657, z: 0.48853645}
+      height: 0.0054228352
+  - slaveIndex: 81
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.3777822, y: 1.2022858, z: -0.580068}
+      height: 0.011184131
+    normal:
+      barycentricCoords: {x: 1.9508832, y: -0.29929304, z: -0.6515901}
+      height: 0.05045836
+    tangent:
+      barycentricCoords: {x: 2.541843, y: -2.1538913, z: 0.61204827}
+      height: 0.0018095963
+  - slaveIndex: 82
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.5662626, y: 1.3035587, z: 0.26270396}
+      height: 0.009796231
+    normal:
+      barycentricCoords: {x: -0.59161305, y: 1.9141263, z: -0.32251325}
+      height: 0.060628425
+    tangent:
+      barycentricCoords: {x: -0.970724, y: 6.7174635, z: -4.7467394}
+      height: 0.009017783
+  - slaveIndex: 83
+    masterTriangleIndex: 417
+    position:
+      barycentricCoords: {x: 0.49333918, y: -0.103046715, z: 0.6097075}
+      height: 0.009328582
+    normal:
+      barycentricCoords: {x: 0.8837209, y: -0.13591924, z: 0.2521984}
+      height: 0.059250038
+    tangent:
+      barycentricCoords: {x: -7.040271, y: -1.169388, z: 9.20966}
+      height: 0.02043415
+  - slaveIndex: 84
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.31975526, y: 1.2230608, z: -0.54281616}
+      height: 0.0111330645
+    normal:
+      barycentricCoords: {x: -0.23941925, y: 1.8571024, z: -0.6176832}
+      height: 0.06177718
+    tangent:
+      barycentricCoords: {x: 3.125535, y: -2.655902, z: 0.53036714}
+      height: 0.014262449
+  - slaveIndex: 85
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.42316186, y: 1.118354, z: -0.5415158}
+      height: 0.0110885585
+    normal:
+      barycentricCoords: {x: 2.2134824, y: -0.6985619, z: -0.5149206}
+      height: 0.049326926
+    tangent:
+      barycentricCoords: {x: 2.5533776, y: -2.158384, z: 0.6050061}
+      height: -0.004061504
+  - slaveIndex: 86
+    masterTriangleIndex: 462
+    position:
+      barycentricCoords: {x: 1.1079639, y: -0.18405244, z: 0.07608857}
+      height: 0.009467934
+    normal:
+      barycentricCoords: {x: 1.6299727, y: -0.09521146, z: -0.53476125}
+      height: 0.059088815
+    tangent:
+      barycentricCoords: {x: -3.7261868, y: -2.6066473, z: 7.3328342}
+      height: 0.028065335
+  - slaveIndex: 87
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.5579058, y: 0.0416204, z: 1.5162854}
+      height: 0.0032917648
+    normal:
+      barycentricCoords: {x: -0.5631353, y: -0.18954584, z: 1.7526813}
+      height: 0.052936055
+    tangent:
+      barycentricCoords: {x: -1.0963349, y: 1.6192567, z: 0.47707826}
+      height: 0.004864216
+  - slaveIndex: 88
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.36497262, y: 1.1393207, z: -0.5042933}
+      height: 0.011038201
+    normal:
+      barycentricCoords: {x: 0.33241165, y: 1.1323123, z: -0.46472403}
+      height: 0.061419044
+    tangent:
+      barycentricCoords: {x: 3.1329358, y: -2.703312, z: 0.5703761}
+      height: 0.0075910036
+  - slaveIndex: 89
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.46849245, y: 1.0344763, z: -0.5029688}
+      height: 0.01099388
+    normal:
+      barycentricCoords: {x: 2.4227433, y: -0.9410406, z: -0.48170292}
+      height: 0.046811834
+    tangent:
+      barycentricCoords: {x: 2.5133014, y: -2.166934, z: 0.6536329}
+      height: -0.0043437583
+  - slaveIndex: 90
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.23984218, y: 1.2645862, z: -0.5044284}
+      height: 0.011038512
+    normal:
+      barycentricCoords: {x: -0.18374269, y: 1.7492335, z: -0.56549096}
+      height: 0.061689056
+    tangent:
+      barycentricCoords: {x: 3.123841, y: -2.6596293, z: 0.5357884}
+      height: 0.012937331
+  - slaveIndex: 91
+    masterTriangleIndex: 462
+    position:
+      barycentricCoords: {x: 0.76571053, y: -0.19032957, z: 0.42461905}
+      height: 0.009869392
+    normal:
+      barycentricCoords: {x: 0.89192104, y: -0.18852797, z: 0.2966069}
+      height: 0.059772454
+    tangent:
+      barycentricCoords: {x: -4.59282, y: -2.8288856, z: 8.421706}
+      height: 0.02123941
+  - slaveIndex: 92
+    masterTriangleIndex: 480
+    position:
+      barycentricCoords: {x: 0.8593438, y: -0.097620815, z: 0.238277}
+      height: 0.0099018365
+    normal:
+      barycentricCoords: {x: 0.8343714, y: -0.081201196, z: 0.24682981}
+      height: 0.059919886
+    tangent:
+      barycentricCoords: {x: -2.4424467, y: -1.4781804, z: 4.920627}
+      height: 0.015661983
+  - slaveIndex: 93
+    masterTriangleIndex: 453
+    position:
+      barycentricCoords: {x: 0.7350716, y: -0.08552195, z: 0.35045037}
+      height: 0.009865212
+    normal:
+      barycentricCoords: {x: 1.1702988, y: -0.06976068, z: -0.10053819}
+      height: 0.05985626
+    tangent:
+      barycentricCoords: {x: -39.43643, y: 6.809783, z: 33.626648}
+      height: 0.010482798
+  - slaveIndex: 94
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.5136462, y: 0.95080876, z: -0.46445495}
+      height: 0.010899992
+    normal:
+      barycentricCoords: {x: 2.0720916, y: -0.47812265, z: -0.59396875}
+      height: 0.04947048
+    tangent:
+      barycentricCoords: {x: 2.9262915, y: -2.576869, z: 0.65057755}
+      height: -0.0013634398
+  - slaveIndex: 95
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.28513822, y: 1.180742, z: -0.46588024}
+      height: 0.010944608
+    normal:
+      barycentricCoords: {x: 0.1632959, y: 1.2934616, z: -0.45675737}
+      height: 0.061403573
+    tangent:
+      barycentricCoords: {x: 3.1447568, y: -2.7214432, z: 0.57668626}
+      height: 0.009026126
+  - slaveIndex: 96
+    masterTriangleIndex: 465
+    position:
+      barycentricCoords: {x: 0.8372671, y: 0.09679418, z: 0.065938696}
+      height: 0.009865262
+    normal:
+      barycentricCoords: {x: 1.0494078, y: 0.22810337, z: -0.2775112}
+      height: 0.05983437
+    tangent:
+      barycentricCoords: {x: -5.8826, y: -3.2350478, z: 10.117648}
+      height: 0.011617958
+  - slaveIndex: 97
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.58064616, y: 0.8464303, z: -0.42707646}
+      height: 0.010851011
+    normal:
+      barycentricCoords: {x: 2.3337312, y: -0.84361076, z: -0.49012065}
+      height: 0.048244793
+    tangent:
+      barycentricCoords: {x: 2.9372346, y: -2.5860531, z: 0.64881855}
+      height: -0.005712413
+  - slaveIndex: 98
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.33038545, y: 1.096952, z: -0.42733738}
+      height: 0.010851558
+    normal:
+      barycentricCoords: {x: 0.29301363, y: 1.1049421, z: -0.39795578}
+      height: 0.061172016
+    tangent:
+      barycentricCoords: {x: 3.1809943, y: -2.7951164, z: 0.61412215}
+      height: 0.008008963
+  - slaveIndex: 99
+    masterTriangleIndex: 468
+    position:
+      barycentricCoords: {x: 0.6775967, y: 0.08463401, z: 0.23776925}
+      height: 0.009864829
+    normal:
+      barycentricCoords: {x: 1.0950046, y: -0.041959047, z: -0.0530456}
+      height: 0.059824135
+    tangent:
+      barycentricCoords: {x: -9.607825, y: 3.576682, z: 7.031143}
+      height: 0.0120645715
+  - slaveIndex: 100
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6405278, y: 0.38761622, z: 1.2529117}
+      height: 0.0018420861
+    normal:
+      barycentricCoords: {x: -1.3444701, y: 1.1608418, z: 1.1836283}
+      height: 0.027825871
+    tangent:
+      barycentricCoords: {x: -0.9014607, y: 1.734677, z: 0.16678378}
+      height: -0.018928876
+  - slaveIndex: 101
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.11804044, y: 0.8478913, z: 0.034068283}
+      height: 0.0097977575
+    normal:
+      barycentricCoords: {x: -0.030255258, y: 1.0454562, z: -0.0152009465}
+      height: 0.059776366
+    tangent:
+      barycentricCoords: {x: 2.8771076, y: -3.0039015, z: 1.1267935}
+      height: 0.011817731
+  - slaveIndex: 102
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6464429, y: 0.7004565, z: 0.94598633}
+      height: 0.0011182162
+    normal:
+      barycentricCoords: {x: -1.2917069, y: 1.8698351, z: 0.42187166}
+      height: 0.027664883
+    tangent:
+      barycentricCoords: {x: -0.7564945, y: 1.7610755, z: -0.0045808502}
+      height: -0.029719017
+  - slaveIndex: 103
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.049644053, y: 1.0881337, z: -0.03848964}
+      height: 0.009238663
+    normal:
+      barycentricCoords: {x: -0.2972811, y: 2.3092895, z: -1.0120082}
+      height: 0.041978076
+    tangent:
+      barycentricCoords: {x: -0.4954998, y: 2.1205363, z: -0.6250365}
+      height: -0.028856633
+  - slaveIndex: 104
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.047276013, y: 0.07350953, z: 0.9737665}
+      height: 0.009263369
+    normal:
+      barycentricCoords: {x: -0.10823876, y: 0.048916787, z: 1.059322}
+      height: 0.058851305
+    tangent:
+      barycentricCoords: {x: -0.55477923, y: 1.6652108, z: -0.11043158}
+      height: 0.0048970706
+  - slaveIndex: 105
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: 0.9489175, y: 0.06991316, z: -0.018830713}
+      height: 0.009262992
+    normal:
+      barycentricCoords: {x: 1.4205647, y: 0.29088318, z: -0.7114478}
+      height: 0.039355054
+    tangent:
+      barycentricCoords: {x: 0.39742678, y: 1.6146129, z: -1.0120398}
+      height: -0.0051826444
+  - slaveIndex: 106
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.6837376, y: -0.91078305, z: 1.2270454}
+      height: 0.001131174
+    normal:
+      barycentricCoords: {x: 1.1535808, y: -1.8829079, z: 1.729327}
+      height: -0.039941493
+    tangent:
+      barycentricCoords: {x: 0.5950284, y: -0.07467979, z: 0.47965136}
+      height: -0.039271858
+  - slaveIndex: 107
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.670039, y: -0.9272383, z: 1.2571993}
+      height: 0.00092501537
+    normal:
+      barycentricCoords: {x: 1.1949503, y: -1.6811819, z: 1.4862316}
+      height: -0.03958657
+    tangent:
+      barycentricCoords: {x: 0.58102536, y: -0.09687417, z: 0.5158488}
+      height: -0.039465204
+  - slaveIndex: 108
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.2708195, y: 0.3631691, z: -0.6339887}
+      height: 0.006809764
+    normal:
+      barycentricCoords: {x: 2.4085777, y: -0.17214368, z: -1.236434}
+      height: -0.027935259
+    tangent:
+      barycentricCoords: {x: -1.1406436, y: 2.5873053, z: -0.44666168}
+      height: -0.040453304
+  - slaveIndex: 109
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.6569875, y: -0.9782138, z: 1.3212264}
+      height: 0.0004120992
+    normal:
+      barycentricCoords: {x: 1.2602518, y: -1.6449564, z: 1.3847046}
+      height: -0.036942303
+    tangent:
+      barycentricCoords: {x: 0.566456, y: -0.15785062, z: 0.59139454}
+      height: -0.039953813
+  - slaveIndex: 110
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.65045637, y: -1.0038399, z: 1.3533835}
+      height: 0.00015393326
+    normal:
+      barycentricCoords: {x: 1.1977375, y: -1.7014244, z: 1.5036869}
+      height: -0.039789848
+    tangent:
+      barycentricCoords: {x: 0.55916446, y: -0.1884777, z: 0.62931323}
+      height: -0.04020484
+  - slaveIndex: 111
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63400316, y: 0.011943782, z: 1.6220593}
+      height: 0.0068091457
+    normal:
+      barycentricCoords: {x: -1.2011216, y: 0.71425605, z: 1.4868655}
+      height: -0.030075602
+    tangent:
+      barycentricCoords: {x: -0.44674513, y: -2.2115202, z: 3.6582654}
+      height: -0.04045607
+  - slaveIndex: 112
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6340056, y: 0.13697843, z: 1.4970272}
+      height: 0.0068092276
+    normal:
+      barycentricCoords: {x: -1.2316377, y: 0.65832514, z: 1.5733125}
+      height: -0.028255688
+    tangent:
+      barycentricCoords: {x: -0.446747, y: -2.0864925, z: 3.5332394}
+      height: -0.04045598
+  - slaveIndex: 113
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6339892, y: 0.26183563, z: 1.3721535}
+      height: 0.006810004
+    normal:
+      barycentricCoords: {x: -1.2013568, y: 0.94507444, z: 1.2562823}
+      height: -0.030073022
+    tangent:
+      barycentricCoords: {x: -0.4467306, y: -1.961627, z: 3.4083576}
+      height: -0.040455204
+  - slaveIndex: 114
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6339917, y: 0.38687098, z: 1.2471206}
+      height: 0.0068100863
+    normal:
+      barycentricCoords: {x: -1.2292893, y: 0.89915204, z: 1.3301373}
+      height: -0.02840868
+    tangent:
+      barycentricCoords: {x: -0.44673246, y: -1.8365997, z: 3.283332}
+      height: -0.040455118
+  - slaveIndex: 115
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63399214, y: 0.5118787, z: 1.1221135}
+      height: 0.0068097054
+    normal:
+      barycentricCoords: {x: -1.2013255, y: 1.1689543, z: 1.0323713}
+      height: -0.03009136
+    tangent:
+      barycentricCoords: {x: -0.44673258, y: -1.7115881, z: 3.158321}
+      height: -0.04045551
+  - slaveIndex: 116
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.633998, y: 0.6369004, z: 0.9970976}
+      height: 0.0068098046
+    normal:
+      barycentricCoords: {x: -1.2266996, y: 1.1412123, z: 1.0854871}
+      height: -0.028578576
+    tangent:
+      barycentricCoords: {x: -0.44673774, y: -1.5865779, z: 3.0333157}
+      height: -0.04045542
+  - slaveIndex: 117
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63400036, y: 0.76193416, z: 0.87206614}
+      height: 0.0068098875
+    normal:
+      barycentricCoords: {x: -1.2255793, y: 1.2658906, z: 0.95968866}
+      height: -0.028651329
+    tangent:
+      barycentricCoords: {x: -0.44673955, y: -1.4615482, z: 2.9082878}
+      height: -0.040455334
+  - slaveIndex: 118
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6339822, y: 0.8867675, z: 0.7472147}
+      height: 0.0068102027
+    normal:
+      barycentricCoords: {x: -1.2015363, y: 1.5136447, z: 0.6878916}
+      height: -0.030094326
+    tangent:
+      barycentricCoords: {x: -0.44672132, y: -1.3367034, z: 2.7834246}
+      height: -0.040455002
+  - slaveIndex: 119
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63398445, y: 1.0117991, z: 0.6221853}
+      height: 0.006810285
+    normal:
+      barycentricCoords: {x: -1.2230275, y: 1.5068421, z: 0.71618545}
+      height: -0.028814482
+    tangent:
+      barycentricCoords: {x: -0.4467231, y: -1.2116742, z: 2.6583972}
+      height: -0.04045492
+  - slaveIndex: 120
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63398683, y: 1.1368337, z: 0.49715313}
+      height: 0.0068103676
+    normal:
+      barycentricCoords: {x: -1.2016268, y: 1.737914, z: 0.4637128}
+      height: -0.0301013
+    tangent:
+      barycentricCoords: {x: -0.44672507, y: -1.0866437, z: 2.5333688}
+      height: -0.040454853
+  - slaveIndex: 121
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6237409, y: 0.045792803, z: 1.5779481}
+      height: -0.00047897178
+    normal:
+      barycentricCoords: {x: -1.2554231, y: 0.70590913, z: 1.5495138}
+      height: -0.04054982
+    tangent:
+      barycentricCoords: {x: -0.39847177, y: -0.29719627, z: 1.6956681}
+      height: -0.046962053
+  - slaveIndex: 122
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.62667495, y: 0.07802881, z: 1.5486461}
+      height: -0.0003625257
+    normal:
+      barycentricCoords: {x: -1.3016682, y: 0.73728436, z: 1.5643837}
+      height: -0.038157683
+    tangent:
+      barycentricCoords: {x: -0.40107763, y: -0.26746973, z: 1.6685474}
+      height: -0.046834122
+  - slaveIndex: 123
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.62741524, y: 0.11710301, z: 1.5103123}
+      height: -0.00045314876
+    normal:
+      barycentricCoords: {x: -1.2102896, y: 0.6759296, z: 1.5343599}
+      height: -0.04266686
+    tangent:
+      barycentricCoords: {x: -0.40136442, y: -0.23122123, z: 1.6325856}
+      height: -0.04691131
+  - slaveIndex: 124
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6281553, y: 0.15616588, z: 1.4719894}
+      height: -0.00054374494
+    normal:
+      barycentricCoords: {x: -1.2134417, y: 0.72076774, z: 1.4926741}
+      height: -0.042651687
+    tangent:
+      barycentricCoords: {x: -0.4016505, y: -0.1949839, z: 1.5966344}
+      height: -0.04698895
+  - slaveIndex: 125
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.62886447, y: 0.195158, z: 1.4337065}
+      height: -0.00063403946
+    normal:
+      barycentricCoords: {x: -1.1926976, y: 0.5742147, z: 1.6184828}
+      height: -0.042826746
+    tangent:
+      barycentricCoords: {x: -0.40190646, y: -0.1588116, z: 1.560718}
+      height: -0.047066756
+  - slaveIndex: 126
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6366591, y: 0.2403044, z: 1.3963547}
+      height: -0.0007767596
+    normal:
+      barycentricCoords: {x: -1.2757208, y: 0.70002455, z: 1.5756962}
+      height: -0.039692283
+    tangent:
+      barycentricCoords: {x: -0.40930814, y: -0.11702936, z: 1.5263375}
+      height: -0.047196515
+  - slaveIndex: 127
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6395553, y: 0.39627722, z: 1.243278}
+      height: -0.0011386254
+    normal:
+      barycentricCoords: {x: -1.1903212, y: 0.9130256, z: 1.2772957}
+      height: -0.044525124
+    tangent:
+      barycentricCoords: {x: -0.41039217, y: 0.027662598, z: 1.3827295}
+      height: -0.047515262
+  - slaveIndex: 128
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.64523584, y: 0.7076316, z: 0.9376041}
+      height: -0.00186177
+    normal:
+      barycentricCoords: {x: -1.2007891, y: 1.6589843, z: 0.5418049}
+      height: -0.040668655
+    tangent:
+      barycentricCoords: {x: -0.4124552, y: 0.3165, z: 1.0959551}
+      height: -0.048174147
+  - slaveIndex: 129
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.047450252, y: 1.0943518, z: -0.04690156}
+      height: 0.006268573
+    normal:
+      barycentricCoords: {x: -0.3026512, y: 2.2474535, z: -0.9448023}
+      height: -0.025448566
+    tangent:
+      barycentricCoords: {x: 0.20110145, y: 0.68073094, z: 0.1181676}
+      height: -0.03989245
+  - slaveIndex: 130
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: 0.9515736, y: 0.08198973, z: -0.033563294}
+      height: 0.006284506
+    normal:
+      barycentricCoords: {x: 1.4438318, y: 0.3589054, z: -0.8027372}
+      height: -0.021537304
+    tangent:
+      barycentricCoords: {x: 1.2091237, y: -0.23436207, z: 0.025238238}
+      height: -0.040250942
+  - slaveIndex: 131
+    masterTriangleIndex: 21
+    position:
+      barycentricCoords: {x: 1.0504739, y: 0.031001508, z: -0.081475385}
+      height: 0.0068950276
+    normal:
+      barycentricCoords: {x: 1.0027266, y: -0.5318053, z: 0.5290787}
+      height: -0.030068332
+    tangent:
+      barycentricCoords: {x: 0.76479375, y: -0.092338614, z: 0.32754487}
+      height: -0.042107575
+  - slaveIndex: 132
+    masterTriangleIndex: 21
+    position:
+      barycentricCoords: {x: 0.09365014, y: 0.02213829, z: 0.88421154}
+      height: 0.007001377
+    normal:
+      barycentricCoords: {x: 0.19939107, y: -0.53218186, z: 1.3327909}
+      height: -0.02770121
+    tangent:
+      barycentricCoords: {x: -0.6009638, y: -0.01604013, z: 1.6170039}
+      height: -0.046864606
+  - slaveIndex: 133
+    masterTriangleIndex: 12
+    position:
+      barycentricCoords: {x: 0.0102515165, y: 0.8468672, z: 0.14288127}
+      height: 0.006105151
+    normal:
+      barycentricCoords: {x: -0.5139171, y: 2.2086582, z: -0.6947409}
+      height: -0.02874326
+    tangent:
+      barycentricCoords: {x: 0.0694282, y: 1.9749258, z: -1.0443538}
+      height: -0.04532302
+  - slaveIndex: 134
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 0.13992353, y: -0.1369153, z: 0.99699175}
+      height: 0.0037269306
+    normal:
+      barycentricCoords: {x: -0.9192605, y: 0.8300247, z: 1.0892358}
+      height: -0.018005751
+    tangent:
+      barycentricCoords: {x: -0.8286675, y: 0.9040419, z: 0.9246255}
+      height: -0.028315594
+  - slaveIndex: 135
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 0.14462806, y: 0.9936399, z: -0.13826793}
+      height: 0.0037053276
+    normal:
+      barycentricCoords: {x: -0.39555258, y: 2.3429387, z: -0.94738615}
+      height: -0.019311959
+    tangent:
+      barycentricCoords: {x: -0.8411531, y: 1.214567, z: 0.62658614}
+      height: -0.028378492
+  - slaveIndex: 136
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 1.1336405, y: 0.012938229, z: -0.14657883}
+      height: 0.0038314678
+    normal:
+      barycentricCoords: {x: 2.3046546, y: -0.6490602, z: -0.65559447}
+      height: -0.023009945
+    tangent:
+      barycentricCoords: {x: 1.4735299, y: 0.4364272, z: -0.9099572}
+      height: 0.049489994
+  - slaveIndex: 137
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 0.14387123, y: 0.8587972, z: -0.002668425}
+      height: 0.0037139603
+    normal:
+      barycentricCoords: {x: -0.75626224, y: 1.3581212, z: 0.39814103}
+      height: -0.017150791
+    tangent:
+      barycentricCoords: {x: 1.0600963, y: -0.8260323, z: 0.765936}
+      height: -0.016539657
+  - slaveIndex: 138
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 0.14462806, y: 0.9936399, z: -0.13826793}
+      height: 0.0037053276
+    normal:
+      barycentricCoords: {x: -0.39555258, y: 2.3429387, z: -0.94738615}
+      height: -0.019311959
+    tangent:
+      barycentricCoords: {x: 1.2473543, y: 1.5141536, z: -1.761508}
+      height: -0.01250555
+  - slaveIndex: 139
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 1.131622, y: -0.122900896, z: -0.008721025}
+      height: 0.003770501
+    normal:
+      barycentricCoords: {x: 1.1182394, y: 0.7465105, z: -0.86474985}
+      height: -0.02436267
+    tangent:
+      barycentricCoords: {x: 2.3748682, y: -1.5948273, z: 0.21995932}
+      height: -0.005393485
+  - slaveIndex: 140
+    masterTriangleIndex: 3
+    position:
+      barycentricCoords: {x: 0.13992353, y: -0.1369153, z: 0.99699175}
+      height: 0.0037269306
+    normal:
+      barycentricCoords: {x: -0.9192605, y: 0.8300247, z: 1.0892358}
+      height: -0.018005751
+    tangent:
+      barycentricCoords: {x: 0.94061494, y: -1.4801633, z: 1.5395484}
+      height: -0.035111185
+  - slaveIndex: 141
+    masterTriangleIndex: 0
+    position:
+      barycentricCoords: {x: 0.14474438, y: 0.0033110336, z: 0.85194457}
+      height: 0.0037310468
+    normal:
+      barycentricCoords: {x: -0.5732057, y: 1.2136773, z: 0.35952842}
+      height: -0.012495388
+    tangent:
+      barycentricCoords: {x: 1.1408513, y: 0.74127877, z: -0.88213}
+      height: -0.014813874
+  - slaveIndex: 142
+    masterTriangleIndex: 15
+    position:
+      barycentricCoords: {x: 0.871704, y: -0.0101279225, z: 0.13842392}
+      height: 0.00543593
+    normal:
+      barycentricCoords: {x: 0.7693782, y: -0.03017961, z: 0.26080143}
+      height: -0.044092454
+    tangent:
+      barycentricCoords: {x: -0.4389637, y: 0.02692138, z: 1.4120423}
+      height: 0.00959076
+  - slaveIndex: 143
+    masterTriangleIndex: 12
+    position:
+      barycentricCoords: {x: 0.0102515165, y: 0.8468672, z: 0.14288127}
+      height: 0.006105151
+    normal:
+      barycentricCoords: {x: -0.5139171, y: 2.2086582, z: -0.6947409}
+      height: -0.02874326
+    tangent:
+      barycentricCoords: {x: -0.26664966, y: -0.27917868, z: 1.5458283}
+      height: -0.008465601
+  - slaveIndex: 144
+    masterTriangleIndex: 21
+    position:
+      barycentricCoords: {x: 0.09365014, y: 0.02213829, z: 0.88421154}
+      height: 0.007001377
+    normal:
+      barycentricCoords: {x: 0.19939107, y: -0.53218186, z: 1.3327909}
+      height: -0.02770121
+    tangent:
+      barycentricCoords: {x: 1.3850555, y: 0.15114628, z: -0.5362019}
+      height: 0.014838544
+  - slaveIndex: 145
+    masterTriangleIndex: 27
+    position:
+      barycentricCoords: {x: -0.0338075, y: 0.47154683, z: 0.5622607}
+      height: 0.0063493364
+    normal:
+      barycentricCoords: {x: -0.04761004, y: 0.27468288, z: 0.77292717}
+      height: -0.043778777
+    tangent:
+      barycentricCoords: {x: -0.3428757, y: 6.2256017, z: -4.882726}
+      height: 0.009484304
+  - slaveIndex: 146
+    masterTriangleIndex: 21
+    position:
+      barycentricCoords: {x: 1.0504739, y: 0.031001508, z: -0.081475385}
+      height: 0.0068950276
+    normal:
+      barycentricCoords: {x: 1.0027266, y: -0.5318053, z: 0.5290787}
+      height: -0.030068332
+    tangent:
+      barycentricCoords: {x: 2.4158196, y: 0.16137137, z: -1.577191}
+      height: -0.0044604363
+  - slaveIndex: 147
+    masterTriangleIndex: 33
+    position:
+      barycentricCoords: {x: 0.6295322, y: 0.45147967, z: -0.08101196}
+      height: 0.0060120462
+    normal:
+      barycentricCoords: {x: 0.29432368, y: 0.8310473, z: -0.12537089}
+      height: -0.044295024
+    tangent:
+      barycentricCoords: {x: -3.2401166, y: 5.4112234, z: -1.1711067}
+      height: 0.007333781
+  - slaveIndex: 148
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 0.4022144, y: 0.63262427, z: -0.03483867}
+      height: 0.0063446816
+    normal:
+      barycentricCoords: {x: 0.08558652, y: 0.9450736, z: -0.030660113}
+      height: -0.043601725
+    tangent:
+      barycentricCoords: {x: 6.173622, y: -4.7040634, z: -0.4695589}
+      height: 0.004011108
+  - slaveIndex: 149
+    masterTriangleIndex: 42
+    position:
+      barycentricCoords: {x: 0.33658338, y: 0.74578834, z: -0.0823717}
+      height: 0.006009572
+    normal:
+      barycentricCoords: {x: -0.20604604, y: 1.3077883, z: -0.10174208}
+      height: -0.04420018
+    tangent:
+      barycentricCoords: {x: -6.317396, y: 8.49094, z: -1.173544}
+      height: 0.0069392216
+  - slaveIndex: 150
+    masterTriangleIndex: 33
+    position:
+      barycentricCoords: {x: 0.45048118, y: 0.74013305, z: -0.19061425}
+      height: 0.005564774
+    normal:
+      barycentricCoords: {x: 0.6864579, y: 0.34753433, z: -0.033992253}
+      height: -0.04397464
+    tangent:
+      barycentricCoords: {x: -4.046374, y: 6.3122993, z: -1.2659253}
+      height: -0.0013940528
+  - slaveIndex: 151
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.08241522, y: 0.84042597, z: 0.24198924}
+      height: 0.0060090944
+    normal:
+      barycentricCoords: {x: -0.09635603, y: -0.17825708, z: 1.274613}
+      height: -0.044185415
+    tangent:
+      barycentricCoords: {x: -1.169149, y: -10.273977, z: 12.443127}
+      height: 0.006880389
+  - slaveIndex: 152
+    masterTriangleIndex: 42
+    position:
+      barycentricCoords: {x: 0.21270075, y: 0.92436004, z: -0.13706079}
+      height: 0.005783436
+    normal:
+      barycentricCoords: {x: 0.63270193, y: 0.31669325, z: 0.050604872}
+      height: -0.043576766
+    tangent:
+      barycentricCoords: {x: -7.6815333, y: 9.888595, z: -1.2070609}
+      height: -0.00092935393
+  - slaveIndex: 153
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.08226797, y: -0.15816021, z: 1.2404282}
+      height: 0.0060101366
+    normal:
+      barycentricCoords: {x: 0.010820849, y: 1.141703, z: -0.15252385}
+      height: -0.043795064
+    tangent:
+      barycentricCoords: {x: -1.1975617, y: -11.50437, z: 13.701931}
+      height: 0.0018340087
+  - slaveIndex: 154
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.6837376, y: -0.91078305, z: 1.2270454}
+      height: 0.001131174
+    normal:
+      barycentricCoords: {x: 1.1535808, y: -1.8829079, z: 1.729327}
+      height: -0.039941493
+    tangent:
+      barycentricCoords: {x: 0.44547036, y: -1.9139388, z: 2.4684684}
+      height: 0.010914895
+  - slaveIndex: 155
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.1096506, y: 0.7718474, z: 0.33780313}
+      height: 0.005895767
+    normal:
+      barycentricCoords: {x: 0.09676678, y: 1.3242053, z: -0.42097208}
+      height: -0.043411277
+    tangent:
+      barycentricCoords: {x: -1.1791859, y: -12.868828, z: 15.048015}
+      height: -0.0007052531
+  - slaveIndex: 156
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.10951416, y: -0.2267451, z: 1.3362594}
+      height: 0.0058972775
+    normal:
+      barycentricCoords: {x: -0.0698048, y: -0.09948115, z: 1.1692859}
+      height: -0.04420915
+    tangent:
+      barycentricCoords: {x: -1.1845181, y: -12.777571, z: 14.962088}
+      height: 0.0038350504
+  - slaveIndex: 157
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.670039, y: -0.9272383, z: 1.2571993}
+      height: 0.00092501537
+    normal:
+      barycentricCoords: {x: 1.1949503, y: -1.6811819, z: 1.4862316}
+      height: -0.03958657
+    tangent:
+      barycentricCoords: {x: 0.4483528, y: -2.0761635, z: 2.6278107}
+      height: 0.00016665123
+  - slaveIndex: 158
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.13693872, y: 0.7029315, z: 0.43400723}
+      height: 0.005783153
+    normal:
+      barycentricCoords: {x: 0.020345163, y: 2.1626823, z: -1.1830274}
+      height: -0.043762658
+    tangent:
+      barycentricCoords: {x: -1.2106395, y: -12.914953, z: 15.125592}
+      height: -0.0010905169
+  - slaveIndex: 159
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.13680038, y: -0.2956174, z: 1.4324179}
+      height: 0.0057843034
+    normal:
+      barycentricCoords: {x: 0.03941343, y: -0.20661804, z: 1.1672046}
+      height: -0.043663133
+    tangent:
+      barycentricCoords: {x: -1.2265488, y: -13.221455, z: 15.448004}
+      height: -0.00023894556
+  - slaveIndex: 160
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.2708195, y: 0.3631691, z: -0.6339887}
+      height: 0.006809764
+    normal:
+      barycentricCoords: {x: 2.4085777, y: -0.17214368, z: -1.236434}
+      height: -0.027935259
+    tangent:
+      barycentricCoords: {x: 6.9592676, y: -5.1588063, z: -0.800461}
+      height: 0.018157428
+  - slaveIndex: 161
+    masterTriangleIndex: 42
+    position:
+      barycentricCoords: {x: 0.08796438, y: 1.103955, z: -0.19191948}
+      height: 0.0055584987
+    normal:
+      barycentricCoords: {x: 0.81343776, y: 0.25828922, z: -0.071727}
+      height: -0.044209152
+    tangent:
+      barycentricCoords: {x: -7.8101497, y: 10.07809, z: -1.2679393}
+      height: -0.0013223728
+  - slaveIndex: 162
+    masterTriangleIndex: 261
+    position:
+      barycentricCoords: {x: 0.25991803, y: -0.117679775, z: 0.85776174}
+      height: 0.006321841
+    normal:
+      barycentricCoords: {x: 0.6251131, y: -0.004417537, z: 0.3793044}
+      height: -0.04362308
+    tangent:
+      barycentricCoords: {x: -10.532093, y: -1.4527543, z: 12.984848}
+      height: 0.0043514236
+  - slaveIndex: 163
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.3132465, y: 0.28956896, z: -0.6028154}
+      height: 0.0067820516
+    normal:
+      barycentricCoords: {x: 0.9821751, y: 0.5925261, z: -0.57470125}
+      height: -0.043970726
+    tangent:
+      barycentricCoords: {x: 7.1620674, y: -5.1822243, z: -0.97984284}
+      height: 0.008383931
+  - slaveIndex: 164
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.6569875, y: -0.9782138, z: 1.3212264}
+      height: 0.0004120992
+    normal:
+      barycentricCoords: {x: 1.2602518, y: -1.6449564, z: 1.3847046}
+      height: -0.036942303
+    tangent:
+      barycentricCoords: {x: 0.5711356, y: -2.2737114, z: 2.702576}
+      height: -0.0006881245
+  - slaveIndex: 165
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.16424192, y: 0.6342692, z: 0.5299728}
+      height: 0.0056716264
+    normal:
+      barycentricCoords: {x: 0.007878544, y: 0.9091605, z: 0.08296099}
+      height: -0.04381779
+    tangent:
+      barycentricCoords: {x: -1.2367907, y: -13.019433, z: 15.256224}
+      height: -0.0007098581
+  - slaveIndex: 166
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.438112, y: 0.16468683, z: -0.6027988}
+      height: 0.0067826654
+    normal:
+      barycentricCoords: {x: 0.7893423, y: 0.82396996, z: -0.6133123}
+      height: -0.044022474
+    tangent:
+      barycentricCoords: {x: 7.251175, y: -5.272204, z: -0.97897136}
+      height: 0.0059890323
+  - slaveIndex: 167
+    masterTriangleIndex: 18
+    position:
+      barycentricCoords: {x: 0.65045637, y: -1.0038399, z: 1.3533835}
+      height: 0.00015393326
+    normal:
+      barycentricCoords: {x: 1.1977375, y: -1.7014244, z: 1.5036869}
+      height: -0.039789848
+    tangent:
+      barycentricCoords: {x: 0.56243426, y: -2.2771394, z: 2.7147052}
+      height: 0.0014216715
+  - slaveIndex: 168
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.19161111, y: 0.56466675, z: 0.6269443}
+      height: 0.005559112
+    normal:
+      barycentricCoords: {x: -0.0424322, y: 0.4584021, z: 0.5840301}
+      height: -0.044074226
+    tangent:
+      barycentricCoords: {x: -1.2634139, y: -13.077625, z: 15.341038}
+      height: -0.0002472728
+  - slaveIndex: 169
+    masterTriangleIndex: 267
+    position:
+      barycentricCoords: {x: 1.5631415, y: 0.039659873, z: -0.6028013}
+      height: 0.0067821406
+    normal:
+      barycentricCoords: {x: 1.2097824, y: 0.36493897, z: -0.5747212}
+      height: -0.043978576
+    tangent:
+      barycentricCoords: {x: 7.4095163, y: -5.4296846, z: -0.97983193}
+      height: 0.008189721
+  - slaveIndex: 170
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63400316, y: 0.011943782, z: 1.6220593}
+      height: 0.0068091457
+    normal:
+      barycentricCoords: {x: -1.2011216, y: 0.71425605, z: 1.4868655}
+      height: -0.030075602
+    tangent:
+      barycentricCoords: {x: -0.7961334, y: 5.504422, z: -3.7082887}
+      height: 0.020084443
+  - slaveIndex: 171
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 1.1782413, y: 0.06803264, z: -0.24627388}
+      height: 0.005336297
+    normal:
+      barycentricCoords: {x: 1.2520803, y: -0.1317858, z: -0.12029445}
+      height: -0.044501007
+    tangent:
+      barycentricCoords: {x: -13.5985155, y: 15.922468, z: -1.3239521}
+      height: -0.0010301446
+  - slaveIndex: 172
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.21903126, y: 0.49469358, z: 0.7243377}
+      height: 0.005447183
+    normal:
+      barycentricCoords: {x: -0.07810651, y: 0.5232256, z: 0.5548809}
+      height: -0.04426929
+    tangent:
+      barycentricCoords: {x: -1.2945154, y: -13.18018, z: 15.474693}
+      height: -0.00079681276
+  - slaveIndex: 173
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60268664, y: 0.0812358, z: 1.5214509}
+      height: 0.006778465
+    normal:
+      barycentricCoords: {x: -0.61291814, y: -0.5546887, z: 2.1676068}
+      height: -0.04403017
+    tangent:
+      barycentricCoords: {x: -0.9790324, y: 5.5241995, z: -3.5451674}
+      height: 0.0061546015
+  - slaveIndex: 174
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6340056, y: 0.13697843, z: 1.4970272}
+      height: 0.0068092276
+    normal:
+      barycentricCoords: {x: -1.2316377, y: 0.65832514, z: 1.5733125}
+      height: -0.028255688
+    tangent:
+      barycentricCoords: {x: -0.80349785, y: 5.6609793, z: -3.857482}
+      height: 0.018175645
+  - slaveIndex: 175
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.24649492, y: 0.42440695, z: 0.822088}
+      height: 0.0053354036
+    normal:
+      barycentricCoords: {x: -0.141681, y: 1.3020629, z: -0.16038197}
+      height: -0.044637613
+    tangent:
+      barycentricCoords: {x: -1.3266943, y: -13.258702, z: 15.585397}
+      height: -0.0014618732
+  - slaveIndex: 176
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.602689, y: 0.2062684, z: 1.3964206}
+      height: 0.0067785513
+    normal:
+      barycentricCoords: {x: -0.57523036, y: -0.13351573, z: 1.7087462}
+      height: -0.043986198
+    tangent:
+      barycentricCoords: {x: -0.979476, y: 5.6774673, z: -3.6979914}
+      height: 0.008043029
+  - slaveIndex: 177
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6339892, y: 0.26183563, z: 1.3721535}
+      height: 0.006810004
+    normal:
+      barycentricCoords: {x: -1.2013568, y: 0.94507444, z: 1.2562823}
+      height: -0.030073022
+    tangent:
+      barycentricCoords: {x: -0.7978928, y: 5.7579727, z: -3.9600801}
+      height: 0.019951368
+  - slaveIndex: 178
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 0.98096144, y: 0.32045156, z: -0.301413}
+      height: 0.005112572
+    normal:
+      barycentricCoords: {x: 0.5547011, y: 0.6562865, z: -0.21098745}
+      height: -0.04506873
+    tangent:
+      barycentricCoords: {x: -13.794544, y: 16.174679, z: -1.3801353}
+      height: -0.0006666278
+  - slaveIndex: 179
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.27399823, y: 0.35365915, z: 0.9203391}
+      height: 0.005223753
+    normal:
+      barycentricCoords: {x: -0.1648026, y: 0.14126983, z: 1.0235327}
+      height: -0.04478085
+    tangent:
+      barycentricCoords: {x: -1.352348, y: -13.337817, z: 15.690165}
+      height: -0.0008813688
+  - slaveIndex: 180
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6026895, y: 0.33128068, z: 1.2714088}
+      height: 0.006778157
+    normal:
+      barycentricCoords: {x: -0.6125543, y: -0.28538698, z: 1.8979411}
+      height: -0.04403645
+    tangent:
+      barycentricCoords: {x: -0.9788393, y: 5.777255, z: -3.7984161}
+      height: 0.0063155736
+  - slaveIndex: 181
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6339917, y: 0.38687098, z: 1.2471206}
+      height: 0.0068100863
+    normal:
+      barycentricCoords: {x: -1.2292893, y: 0.89915204, z: 1.3301373}
+      height: -0.02840868
+    tangent:
+      barycentricCoords: {x: -0.80518335, y: 5.912436, z: -4.1072526}
+      height: 0.018162552
+  - slaveIndex: 182
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.30151662, y: 0.2833082, z: 1.0182084}
+      height: 0.005112503
+    normal:
+      barycentricCoords: {x: -0.2162592, y: -0.26734453, z: 1.4836037}
+      height: -0.045109477
+    tangent:
+      barycentricCoords: {x: -1.3787053, y: -13.389006, z: 15.767711}
+      height: -0.0004575164
+  - slaveIndex: 183
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6026743, y: 0.45613116, z: 1.1465431}
+      height: 0.006778931
+    normal:
+      barycentricCoords: {x: -0.5758326, y: 0.09957637, z: 1.4762564}
+      height: -0.04399238
+    tangent:
+      barycentricCoords: {x: -0.9793309, y: 5.9257, z: -3.9463694}
+      height: 0.007908858
+  - slaveIndex: 184
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63399214, y: 0.5118787, z: 1.1221135}
+      height: 0.0068097054
+    normal:
+      barycentricCoords: {x: -1.2013255, y: 1.1689543, z: 1.0323713}
+      height: -0.03009136
+    tangent:
+      barycentricCoords: {x: -0.8002664, y: 6.0129395, z: -4.212672}
+      height: 0.019762293
+  - slaveIndex: 185
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.329109, y: 0.21187875, z: 1.1172302}
+      height: 0.0050009056
+    normal:
+      barycentricCoords: {x: -0.2516615, y: -0.23583749, z: 1.487499}
+      height: -0.045349427
+    tangent:
+      barycentricCoords: {x: -1.410162, y: -13.499329, z: 15.909491}
+      height: -0.0009901917
+  - slaveIndex: 186
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 0.7828902, y: 0.57379836, z: -0.3566886}
+      height: 0.004889107
+    normal:
+      barycentricCoords: {x: 0.33407825, y: 0.95567685, z: -0.28975496}
+      height: -0.045610953
+    tangent:
+      barycentricCoords: {x: -14.033169, y: 16.47283, z: -1.4396604}
+      height: -0.0012212996
+  - slaveIndex: 187
+    masterTriangleIndex: 285
+    position:
+      barycentricCoords: {x: 0.3776272, y: -0.11768381, z: 0.74005663}
+      height: 0.0063215164
+    normal:
+      barycentricCoords: {x: 0.7666911, y: -0.14846985, z: 0.3817788}
+      height: -0.04364059
+    tangent:
+      barycentricCoords: {x: -9.074491, y: -1.4577488, z: 11.532239}
+      height: 0.0049733324
+  - slaveIndex: 188
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60267675, y: 0.58116376, z: 1.021513}
+      height: 0.0067790104
+    normal:
+      barycentricCoords: {x: -0.6116116, y: -0.019330125, z: 1.6309417}
+      height: -0.044040274
+    tangent:
+      barycentricCoords: {x: -0.978901, y: 6.0291553, z: -4.050254}
+      height: 0.0064411615
+  - slaveIndex: 189
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.633998, y: 0.6369004, z: 0.9970976}
+      height: 0.0068098046
+    normal:
+      barycentricCoords: {x: -1.2266996, y: 1.1412123, z: 1.0854871}
+      height: -0.028578576
+    tangent:
+      barycentricCoords: {x: -0.806882, y: 6.1638584, z: -4.3569765}
+      height: 0.018161379
+  - slaveIndex: 190
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.35674763, y: 0.14018348, z: 1.2165642}
+      height: 0.004889224
+    normal:
+      barycentricCoords: {x: -0.30266437, y: -0.6227226, z: 1.925387}
+      height: -0.045709647
+    tangent:
+      barycentricCoords: {x: -1.4364268, y: -13.550288, z: 15.986715}
+      height: -0.0005981004
+  - slaveIndex: 191
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6026772, y: 0.7061747, z: 0.8965026}
+      height: 0.006778635
+    normal:
+      barycentricCoords: {x: -0.57666075, y: 0.3301247, z: 1.246536}
+      height: -0.043999907
+    tangent:
+      barycentricCoords: {x: -0.9793531, y: 6.1736135, z: -4.1942606}
+      height: 0.007754012
+  - slaveIndex: 192
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63400036, y: 0.76193416, z: 0.87206614}
+      height: 0.0068098875
+    normal:
+      barycentricCoords: {x: -1.2255793, y: 1.2658906, z: 0.95968866}
+      height: -0.028651329
+    tangent:
+      barycentricCoords: {x: -0.8073065, y: 6.289016, z: -4.4817095}
+      height: 0.018181613
+  - slaveIndex: 193
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 0.5826509, y: 0.8295151, z: -0.41216594}
+      height: 0.0046643442
+    normal:
+      barycentricCoords: {x: 0.69003916, y: 0.6998712, z: -0.3899102}
+      height: -0.046368122
+    tangent:
+      barycentricCoords: {x: -14.269416, y: 16.770435, z: -1.501018}
+      height: -0.0020344236
+  - slaveIndex: 194
+    masterTriangleIndex: 54
+    position:
+      barycentricCoords: {x: -0.38442695, y: 0.068175696, z: 1.3162513}
+      height: 0.0047770455
+    normal:
+      barycentricCoords: {x: -0.338174, y: -0.6069261, z: 1.9451001}
+      height: -0.04597415
+    tangent:
+      barycentricCoords: {x: -1.4681649, y: -13.661886, z: 16.13005}
+      height: -0.0011195843
+  - slaveIndex: 195
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.03483121, y: 0.36730796, z: 0.66752326}
+      height: 0.0063450905
+    normal:
+      barycentricCoords: {x: -0.069128074, y: 0.48523843, z: 0.58388966}
+      height: -0.043641567
+    tangent:
+      barycentricCoords: {x: -0.46902463, y: 5.7403507, z: -4.271326}
+      height: 0.0084125595
+  - slaveIndex: 196
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6026818, y: 0.83120096, z: 0.7714809}
+      height: 0.0067787273
+    normal:
+      barycentricCoords: {x: -0.61077136, y: 0.2488833, z: 1.361888}
+      height: -0.044045072
+    tangent:
+      barycentricCoords: {x: -0.9788623, y: 6.2816153, z: -4.302753}
+      height: 0.006584372
+  - slaveIndex: 197
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6339822, y: 0.8867675, z: 0.7472147}
+      height: 0.0068102027
+    normal:
+      barycentricCoords: {x: -1.2015363, y: 1.5136447, z: 0.6878916}
+      height: -0.030094326
+    tangent:
+      barycentricCoords: {x: -0.8030206, y: 6.3933187, z: -4.590298}
+      height: 0.019547543
+  - slaveIndex: 198
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.5648295, y: 0.7668408, z: 0.79798865}
+      height: 0.006746172
+    normal:
+      barycentricCoords: {x: -0.5740316, y: 0.20828204, z: 1.3657496}
+      height: -0.04399738
+    tangent:
+      barycentricCoords: {x: -0.9696698, y: 6.1770267, z: -4.207357}
+      height: 0.0065739923
+  - slaveIndex: 199
+    masterTriangleIndex: 372
+    position:
+      barycentricCoords: {x: 0.25983447, y: -0.1176936, z: 0.85785913}
+      height: 0.0063213976
+    normal:
+      barycentricCoords: {x: 0.48870587, y: -0.17030197, z: 0.68159616}
+      height: -0.04365052
+    tangent:
+      barycentricCoords: {x: -10.537279, y: -1.4576669, z: 12.9949465}
+      height: 0.005598929
+  - slaveIndex: 200
+    masterTriangleIndex: 492
+    position:
+      barycentricCoords: {x: 0.2994369, y: 0.73655176, z: -0.035988655}
+      height: 0.0063294983
+    normal:
+      barycentricCoords: {x: 0.69375485, y: 0.33729178, z: -0.031046627}
+      height: -0.043768544
+    tangent:
+      barycentricCoords: {x: 4.7662535, y: -3.2793229, z: -0.48693073}
+      height: 0.008617425
+  - slaveIndex: 201
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60268414, y: 0.956233, z: 0.6464511}
+      height: 0.006778813
+    normal:
+      barycentricCoords: {x: -0.57774365, y: 0.5658454, z: 1.0118983}
+      height: -0.044005837
+    tangent:
+      barycentricCoords: {x: -0.9790278, y: 6.4226336, z: -4.443606}
+      height: 0.007649689
+  - slaveIndex: 202
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63398445, y: 1.0117991, z: 0.6221853}
+      height: 0.006810285
+    normal:
+      barycentricCoords: {x: -1.2230275, y: 1.5068421, z: 0.71618545}
+      height: -0.028814482
+    tangent:
+      barycentricCoords: {x: -0.80900913, y: 6.5403996, z: -4.73139}
+      height: 0.018168721
+  - slaveIndex: 203
+    masterTriangleIndex: 51
+    position:
+      barycentricCoords: {x: 0.3814267, y: 1.0863519, z: -0.46777856}
+      height: 0.004440092
+    normal:
+      barycentricCoords: {x: -0.56159544, y: 2.021249, z: -0.4596535}
+      height: -0.046923496
+    tangent:
+      barycentricCoords: {x: -14.47242, y: 17.02799, z: -1.55557}
+      height: -0.0014542767
+  - slaveIndex: 204
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.5648109, y: 0.8917073, z: 0.67310363}
+      height: 0.006746933
+    normal:
+      barycentricCoords: {x: -0.56831694, y: 0.3134145, z: 1.2549024}
+      height: -0.043992806
+    tangent:
+      barycentricCoords: {x: -0.9695132, y: 6.2973065, z: -4.327793}
+      height: 0.006286929
+  - slaveIndex: 205
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.60266554, y: 1.0810995, z: 0.52156603}
+      height: 0.006779573
+    normal:
+      barycentricCoords: {x: -0.609588, y: 0.51482594, z: 1.0947621}
+      height: -0.04404763
+    tangent:
+      barycentricCoords: {x: -0.97878456, y: 6.5335283, z: -4.554744}
+      height: 0.0067038992
+  - slaveIndex: 206
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.63398683, y: 1.1368337, z: 0.49715313}
+      height: 0.0068103676
+    normal:
+      barycentricCoords: {x: -1.2016268, y: 1.737914, z: 0.4637128}
+      height: -0.0301013
+    tangent:
+      barycentricCoords: {x: -0.8054433, y: 6.6479383, z: -4.842495}
+      height: 0.019366696
+  - slaveIndex: 207
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.56481147, y: 1.0167197, z: 0.5480917}
+      height: 0.0067465575
+    normal:
+      barycentricCoords: {x: -0.54066575, y: 0.4365295, z: 1.1041362}
+      height: -0.043962553
+    tangent:
+      barycentricCoords: {x: -0.9689391, y: 6.412715, z: -4.4437757}
+      height: 0.0056919986
+  - slaveIndex: 208
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.4890917, y: 1.1379411, z: 0.35115057}
+      height: 0.006683383
+    normal:
+      barycentricCoords: {x: -0.49920025, y: 0.87073857, z: 0.6284617}
+      height: -0.043917812
+    tangent:
+      barycentricCoords: {x: -0.89407265, y: 6.573167, z: -4.6790934}
+      height: 0.008432735
+  - slaveIndex: 209
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.6026696, y: 1.2060965, z: 0.39657313}
+      height: 0.006779212
+    normal:
+      barycentricCoords: {x: -0.5788614, y: 0.79786414, z: 0.7809973}
+      height: -0.04401171
+    tangent:
+      barycentricCoords: {x: -0.97917926, y: 6.6703825, z: -4.691203}
+      height: 0.0075153057
+  - slaveIndex: 210
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6237409, y: 0.045792803, z: 1.5779481}
+      height: -0.00047897178
+    normal:
+      barycentricCoords: {x: -1.2554231, y: 0.70590913, z: 1.5495138}
+      height: -0.04054982
+    tangent:
+      barycentricCoords: {x: -0.92361844, y: 1.4848014, z: 0.43881702}
+      height: 0.014874642
+  - slaveIndex: 211
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.5648161, y: 1.1417446, z: 0.42307144}
+      height: 0.0067466497
+    normal:
+      barycentricCoords: {x: -0.5679315, y: 0.5808927, z: 0.98703885}
+      height: -0.043997206
+    tangent:
+      barycentricCoords: {x: -0.9696943, y: 6.5494576, z: -4.579763}
+      height: 0.0064285668
+  - slaveIndex: 212
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.32249957, y: 1.2396002, z: -0.5620997}
+      height: 0.007979728
+    normal:
+      barycentricCoords: {x: 0.96921027, y: 0.43803585, z: -0.4072461}
+      height: -0.0419317
+    tangent:
+      barycentricCoords: {x: 3.1143458, y: -2.6060152, z: 0.49166918}
+      height: 0.01500571
+  - slaveIndex: 213
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.62667495, y: 0.07802881, z: 1.5486461}
+      height: -0.0003625257
+    normal:
+      barycentricCoords: {x: -1.3016682, y: 0.73728436, z: 1.5643837}
+      height: -0.038157683
+    tangent:
+      barycentricCoords: {x: -0.89094573, y: 1.5147146, z: 0.37623113}
+      height: 0.013100388
+  - slaveIndex: 214
+    masterTriangleIndex: 291
+    position:
+      barycentricCoords: {x: -0.56481826, y: 1.2667754, z: 0.2980429}
+      height: 0.006746731
+    normal:
+      barycentricCoords: {x: -0.5706578, y: 0.9302819, z: 0.640376}
+      height: -0.04400192
+    tangent:
+      barycentricCoords: {x: -0.96972907, y: 6.703, z: -4.7332716}
+      height: 0.008403662
+  - slaveIndex: 215
+    masterTriangleIndex: 417
+    position:
+      barycentricCoords: {x: 0.46472397, y: -0.10536043, z: 0.64063644}
+      height: 0.0063283066
+    normal:
+      barycentricCoords: {x: -2.0069091, y: -0.522469, z: 3.5293784}
+      height: -0.048294965
+    tangent:
+      barycentricCoords: {x: -7.8082175, y: -1.2764713, z: 10.084688}
+      height: 0.012848966
+  - slaveIndex: 216
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.36191326, y: 1.1707622, z: -0.53267545}
+      height: 0.008128075
+    normal:
+      barycentricCoords: {x: 0.73861647, y: 0.7099562, z: -0.4485727}
+      height: -0.042294033
+    tangent:
+      barycentricCoords: {x: 3.1409407, y: -2.679431, z: 0.5384903}
+      height: 0.0108021675
+  - slaveIndex: 217
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.62741524, y: 0.11710301, z: 1.5103123}
+      height: -0.00045314876
+    normal:
+      barycentricCoords: {x: -1.2102896, y: 0.6759296, z: 1.5343599}
+      height: -0.04266686
+    tangent:
+      barycentricCoords: {x: -0.8674557, y: 1.5695533, z: 0.2979024}
+      height: 0.0076581705
+  - slaveIndex: 218
+    masterTriangleIndex: 420
+    position:
+      barycentricCoords: {x: 1.190092, y: -0.15437713, z: -0.03571476}
+      height: 0.0063842484
+    normal:
+      barycentricCoords: {x: 3.9262326, y: -11.994865, z: 9.068634}
+      height: -0.112484805
+    tangent:
+      barycentricCoords: {x: 3.474791, y: -10.530407, z: 8.055616}
+      height: 0.015924096
+  - slaveIndex: 219
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.5571023, y: 0.052021604, z: 1.5050807}
+      height: 0.00030862464
+    normal:
+      barycentricCoords: {x: -0.5660555, y: 0.22122523, z: 1.3448303}
+      height: -0.04960385
+    tangent:
+      barycentricCoords: {x: -1.0948983, y: 1.623028, z: 0.47187024}
+      height: 0.0008717436
+  - slaveIndex: 220
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.4061323, y: 1.0880873, z: -0.49421954}
+      height: 0.008037176
+    normal:
+      barycentricCoords: {x: 0.5922053, y: 0.9587084, z: -0.55091363}
+      height: -0.042472716
+    tangent:
+      barycentricCoords: {x: 3.1515996, y: -2.730561, z: 0.5789614}
+      height: 0.005220679
+  - slaveIndex: 221
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6281553, y: 0.15616588, z: 1.4719894}
+      height: -0.00054374494
+    normal:
+      barycentricCoords: {x: -1.2134417, y: 0.72076774, z: 1.4926741}
+      height: -0.042651687
+    tangent:
+      barycentricCoords: {x: -0.86430275, y: 1.6054292, z: 0.25887367}
+      height: 0.007808072
+  - slaveIndex: 222
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.28104395, y: 1.2132741, z: -0.494318}
+      height: 0.008037409
+    normal:
+      barycentricCoords: {x: 0.77293813, y: 0.63326275, z: -0.40620095}
+      height: -0.04218779
+    tangent:
+      barycentricCoords: {x: 3.1383874, y: -2.6805015, z: 0.542114}
+      height: 0.012156941
+  - slaveIndex: 223
+    masterTriangleIndex: 462
+    position:
+      barycentricCoords: {x: 0.71372193, y: -0.21275613, z: 0.4990342}
+      height: 0.0069213845
+    normal:
+      barycentricCoords: {x: -0.98955894, y: -1.1159414, z: 3.1055007}
+      height: -0.044467233
+    tangent:
+      barycentricCoords: {x: -4.685713, y: -2.8724434, z: 8.558156}
+      height: 0.020407705
+  - slaveIndex: 224
+    masterTriangleIndex: 480
+    position:
+      barycentricCoords: {x: 0.8405763, y: -0.11006647, z: 0.26949018}
+      height: 0.006944468
+    normal:
+      barycentricCoords: {x: 0.7355324, y: -0.32299885, z: 0.5874665}
+      height: -0.04289175
+    tangent:
+      barycentricCoords: {x: -2.4650402, y: -1.4959364, z: 4.9609766}
+      height: 0.015060831
+  - slaveIndex: 225
+    masterTriangleIndex: 465
+    position:
+      barycentricCoords: {x: 1.0082498, y: 0.060516603, z: -0.068766356}
+      height: 0.0069208136
+    normal:
+      barycentricCoords: {x: 0.8526987, y: 0.26926032, z: -0.12195902}
+      height: -0.043038115
+    tangent:
+      barycentricCoords: {x: -5.9667425, y: -3.0055497, z: 9.972292}
+      height: 0.0068306257
+  - slaveIndex: 226
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.62886447, y: 0.195158, z: 1.4337065}
+      height: -0.00063403946
+    normal:
+      barycentricCoords: {x: -1.1926976, y: 0.5742147, z: 1.6184828}
+      height: -0.042826746
+    tangent:
+      barycentricCoords: {x: -0.9766097, y: 1.7177329, z: 0.2588769}
+      height: 0.003454439
+  - slaveIndex: 227
+    masterTriangleIndex: 456
+    position:
+      barycentricCoords: {x: 0.26897734, y: -0.00768221, z: 0.7387049}
+      height: 0.0069208
+    normal:
+      barycentricCoords: {x: 0.57097524, y: -0.22459954, z: 0.6536243}
+      height: -0.04305921
+    tangent:
+      barycentricCoords: {x: -33.315937, y: 6.8182025, z: 27.497738}
+      height: 0.0063264617
+  - slaveIndex: 228
+    masterTriangleIndex: 465
+    position:
+      barycentricCoords: {x: 0.75848, y: 0.060471676, z: 0.18104833}
+      height: 0.0069208476
+    normal:
+      barycentricCoords: {x: 1.0290953, y: 0.06572235, z: -0.09481765}
+      height: -0.043053858
+    tangent:
+      barycentricCoords: {x: -5.96676, y: -3.2747824, z: 10.241543}
+      height: 0.005585458
+  - slaveIndex: 229
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6366591, y: 0.2403044, z: 1.3963547}
+      height: -0.0007767596
+    normal:
+      barycentricCoords: {x: -1.2757208, y: 0.70002455, z: 1.5756962}
+      height: -0.039692283
+    tangent:
+      barycentricCoords: {x: -0.97686005, y: 1.75019, z: 0.22667007}
+      height: 0.006648076
+  - slaveIndex: 230
+    masterTriangleIndex: 465
+    position:
+      barycentricCoords: {x: 0.7584604, y: 0.3104128, z: -0.06887321}
+      height: 0.0069208886
+    normal:
+      barycentricCoords: {x: 0.94447863, y: 0.17133461, z: -0.11581324}
+      height: -0.043053746
+    tangent:
+      barycentricCoords: {x: -5.9964595, y: -2.9966717, z: 9.993132}
+      height: 0.0067012957
+  - slaveIndex: 231
+    masterTriangleIndex: 468
+    position:
+      barycentricCoords: {x: 0.56315714, y: 0.12369132, z: 0.3131515}
+      height: 0.006920442
+    normal:
+      barycentricCoords: {x: 0.94417155, y: -0.041908942, z: 0.09773737}
+      height: -0.043037746
+    tangent:
+      barycentricCoords: {x: -9.58988, y: 3.5469425, z: 7.042938}
+      height: 0.0050757923
+  - slaveIndex: 232
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.6395553, y: 0.39627722, z: 1.243278}
+      height: -0.0011386254
+    normal:
+      barycentricCoords: {x: -1.1903212, y: 0.9130256, z: 1.2772957}
+      height: -0.044525124
+    tangent:
+      barycentricCoords: {x: -0.95427513, y: 1.8819882, z: 0.07228692}
+      height: 0.009342308
+  - slaveIndex: 233
+    masterTriangleIndex: 477
+    position:
+      barycentricCoords: {x: 0.14786291, y: 0.80852425, z: 0.04361283}
+      height: 0.006832303
+    normal:
+      barycentricCoords: {x: -0.02888649, y: 1.0629925, z: -0.034105882}
+      height: -0.043011375
+    tangent:
+      barycentricCoords: {x: 2.807993, y: -2.934972, z: 1.1269792}
+      height: 0.0027061708
+  - slaveIndex: 234
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.64523584, y: 0.7076316, z: 0.9376041}
+      height: -0.00186177
+    normal:
+      barycentricCoords: {x: -1.2007891, y: 1.6589843, z: 0.5418049}
+      height: -0.040668655
+    tangent:
+      barycentricCoords: {x: -0.78964436, y: 1.9403877, z: -0.1507434}
+      height: 0.025314622
+  - slaveIndex: 235
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.047450252, y: 1.0943518, z: -0.04690156}
+      height: 0.006268573
+    normal:
+      barycentricCoords: {x: -0.3026512, y: 2.2474535, z: -0.9448023}
+      height: -0.025448566
+    tangent:
+      barycentricCoords: {x: -0.4852892, y: 2.1811066, z: -0.6958175}
+      height: 0.04265752
+  - slaveIndex: 236
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: -0.045843683, y: 0.084429696, z: 0.961414}
+      height: 0.006284962
+    normal:
+      barycentricCoords: {x: -0.017230507, y: 0.12727934, z: 0.8899511}
+      height: -0.04359194
+    tangent:
+      barycentricCoords: {x: -0.5537998, y: 1.6692054, z: -0.11540568}
+      height: 0.0024553714
+  - slaveIndex: 237
+    masterTriangleIndex: 489
+    position:
+      barycentricCoords: {x: 0.9515736, y: 0.08198973, z: -0.033563294}
+      height: 0.006284506
+    normal:
+      barycentricCoords: {x: 1.4438318, y: 0.3589054, z: -0.8027372}
+      height: -0.021537304
+    tangent:
+      barycentricCoords: {x: 0.3245031, y: 1.6538575, z: -0.9783605}
+      height: 0.005509879
